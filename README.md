@@ -19,10 +19,10 @@ This is designed for Visual Studio 2017 and works with the free Community editio
 # Example Usage
 
 Dump all modules and hidden code chunks from a specific process identifier:
-void ProcessDumpById(unsigned long pid, wchar_t* output_folder);
+* void ProcessDumpById(unsigned long pid, wchar_t* output_folder);
 
 Dump all modules and hidden code chunk by process name:
-void ProcessDumpById(unsigned long pid, wchar_t* output_folder);
+* void ProcessDumpById(unsigned long pid, wchar_t* output_folder);
 
 
 
