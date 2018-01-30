@@ -27,9 +27,6 @@
     <ClCompile Include="module_list.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="pe_exports.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -52,6 +49,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="close_watcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDump.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -101,13 +101,13 @@
     <ClInclude Include="terminate_monitor_hook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="close_watcher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="work_queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDump.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
